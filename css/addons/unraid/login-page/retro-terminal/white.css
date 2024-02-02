@@ -6,10 +6,11 @@
 
 @import url(/css/addons/unraid/login-page/retro-terminal/retro-terminal-base.css);
 :root {
---main-bg-color:black;
+--main-bg-color:#340063;
 --body-before:#70d7f61a;
 --body-after: #70d7f633;
---body-animation: flicker;
+/*--body-animation: flicker;*/
+--body-animation: none;
 /* --logo: url(https://i.imgur.com/FnA6t5f.png) center no-repeat; */
 --logo: url(https://i.imgur.com/ossfFPp.png) center no-repeat;
 --text-color: #ffffff;
@@ -18,9 +19,9 @@
 --link-color-hover: #af0606;
 --case-color: #ffffff;
 --button-text-color: #ffffff;
---button-text-color-hover: #000;
+--button-text-color-hover: #ffffff;
 --button-color: #ffffff;
---button-color-hover: #af0606;
+--button-color-hover: #E56B8C;
 --selection-color: #8f2809;
 --custom-text-header:#ffffff;
 --custom-text-header-shadow:#ffffff;
